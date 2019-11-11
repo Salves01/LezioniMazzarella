@@ -3,14 +3,15 @@ package prova;
 public class test {
 
 	public static void main(String[] args) {
-		
-			Ghiacciolo papa = new Ghiacciolo("Arancia", "rettangolare", "arancione");
+			Ghiacciolo papa = new Ghiacciolo("arancia", "rettangolare");
 			Ghiacciolo regina = new Ghiacciolo("fragola", "rotondo", "rosa");
-			papa.etichetta("papa");
-			regina.etichetta("regina");
-			Persona p = new Persona("Alfonso");
-			System.out.println(p.
-			
-		
+			System.out.println(regina);
+			System.out.println(papa.forma);
+			String coloreRegina = regina.getColore();
+			System.out.println(coloreRegina);
+			Persona p = new Persona("Alfonso",16);
+			int etaP = p.getEta();
+			System.out.println(etaP);
+	}
 }
  

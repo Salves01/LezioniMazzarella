@@ -2,8 +2,10 @@ package prova;
 
 public class Bambino extends Persona{
 
-	public Bambino(String stringa) {
-		super(stringa);
+	private int denti;
+	public Bambino(String nome, int eta, int denti) {
+		super(nome, eta);
+		this.denti = denti;
 	}
 
 	
